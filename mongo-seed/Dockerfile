@@ -4,6 +4,7 @@ COPY animalType.json /animalType.json
 COPY arrivalNotepad.json /arrivalNotepad.json
 COPY country.json /country.json
 COPY customer.json /customer.json
+COPY customerVehicleType.json /customerVehicleType.json
 COPY customsClassification.json /customsClassification.json
 COPY externalMessage.json /externalMessage.json
 COPY extranetUserDefaultBookDate.json /extranetUserDefaultBookDate.json

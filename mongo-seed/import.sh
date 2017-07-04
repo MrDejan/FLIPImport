@@ -3,6 +3,7 @@ mongoimport --host mongodb --db flip --collection animalType --type json --file 
 mongoimport --host mongodb --db flip --collection arrivalNotepad --type json --file /arrivalNotepad.json --jsonArray
 mongoimport --host mongodb --db flip --collection country --type json --file /country.json --jsonArray
 mongoimport --host mongodb --db flip --collection customer --type json --file /customer.json --jsonArray
+mongoimport --host mongodb --db flip --collection customerVehicleType --type json --file /customerVehicleType.json --jsonArray
 mongoimport --host mongodb --db flip --collection customsClassification --type json --file /customsClassification.json --jsonArray
 mongoimport --host mongodb --db flip --collection externalMessage --type json --file /externalMessage.json --jsonArray
 mongoimport --host mongodb --db flip --collection extranetUserDefaultBookDate --type json --file /extranetUserDefaultBookDate.json --jsonArray
@@ -11,7 +12,7 @@ mongoimport --host mongodb --db flip --collection routeLoadingPref --type json -
 mongoimport --host mongodb --db flip --collection route --type json --file /route.json --jsonArray
 mongoimport --host mongodb --db flip --collection sailing --type json --file /sailing.json --jsonArray
 mongoimport --host mongodb --db flip --collection subscriberContact --type json --file /subscriberContact.json --jsonArray
-mongoimport --host mongodb --db flip --collection subscribers --type json --file /subscribers.json --jsonArray
+mongoimport --host mongodb --db flip --collection subscriber --type json --file /subscriber.json --jsonArray
 mongoimport --host mongodb --db flip --collection subscription --type json --file /subscription.json --jsonArray
 mongoimport --host mongodb --db flip --collection subscriptionChannel --type json --file /subscriptionChannel.json --jsonArray
 mongoimport --host mongodb --db flip --collection travelledTrailer --type json --file /travelledTrailer.json --jsonArray
